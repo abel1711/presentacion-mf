@@ -1,0 +1,21 @@
+.imagen-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media screen and (min-width: 360px) {
+  .imagen-container img {
+      width: 360px;
+  }
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
