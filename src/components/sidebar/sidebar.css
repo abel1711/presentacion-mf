@@ -1,0 +1,25 @@
+
+.sidebar-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    padding: 4px;
+}
+
+.show {
+    transition: all 1s ease;
+}
+
+@media screen and (min-width: 992px) {
+    div.sidebar-ul {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    div.sidebar-ul li {
+        width: 20px;
+    }
+}

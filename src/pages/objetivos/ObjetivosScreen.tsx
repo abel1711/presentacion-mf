@@ -10,6 +10,7 @@ export const ObjetivosScreen = () => {
       whileHover={{ scale: 1.05 }}
       transition  = {{ duration: 0.5, type: 'tween' }}
       viewport={{ amount: 0.5 }}
+      id="objetivos"
       
     >
       <div className="row">

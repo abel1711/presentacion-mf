@@ -4,12 +4,13 @@ import mfCamioneta from "../../img/mf-gestiones-camioneta.jpg";
 export const AboutScreen = () => {
   return (
     <motion.div 
-      className="container py-5"
+      className="container p-5"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       whileHover={{ scale: 1.05 }}
       transition  = {{ duration: 0.5, type: 'tween' }}
       viewport={{ amount: 0.5 }}
+      id="quienes-somos"
     >
       <div className="row">
         <div className="col-12 col-md-6">

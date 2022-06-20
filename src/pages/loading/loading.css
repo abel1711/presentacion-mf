@@ -11,6 +11,10 @@
     width: 50%;
 }
 
+.img-png {
+    filter: invert(45%) sepia(79%) saturate(1839%) hue-rotate(6deg) brightness(99%) contrast(94%);
+}
+
 @media screen and (min-width: 640px) {
 
     .loading {

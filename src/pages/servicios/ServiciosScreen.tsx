@@ -10,6 +10,7 @@ export const ServiciosScreen = () => {
         whileHover={{ scale: 1.05 }}
         transition  = {{ duration: 0.5, type: 'tween' }}
         viewport={{ amount: 0.5 }}
+        id="servicios"
     >
       <div className="row">
         <div className="col-12 col-md-6">

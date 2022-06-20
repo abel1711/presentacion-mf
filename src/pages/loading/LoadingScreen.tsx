@@ -1,5 +1,5 @@
 import './loading.css';
-import logo from '../../img/mf-gestiones.jpg'
+import logo from '../../img/mf-gestiones.jpg';
 
 export const LoadingScreen = () => {
   return (
