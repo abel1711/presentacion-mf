@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { FormContact } from '../../components/formContact/FormContact'
 import logo from '../../img/mf-gestiones.jpg'
 
 export const ContactoScreen = () => {
@@ -15,6 +16,7 @@ export const ContactoScreen = () => {
       <div className="row">
         <div className="col-12 col-md-6">
           <h2>Contacto</h2>
+          <FormContact />
           
         </div>
         <div className="col-12 col-md-6">
