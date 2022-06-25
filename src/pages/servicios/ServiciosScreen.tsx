@@ -34,7 +34,7 @@ export const ServiciosScreen = () => {
           <h4>Encomiendas</h4>
           <p>Retiro  y  Re despacho de Encomiendas  a toda la provincia y el país.</p>
         </div>
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-6  d-flex align-items-center justify-content-center ">
           <div className="imagen-container">
             <img src={ logo } alt="logo" className='img-fluid rounded'/>
           </div>

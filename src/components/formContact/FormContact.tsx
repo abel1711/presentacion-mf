@@ -26,7 +26,7 @@ export const FormContact = () => {
 
          <form onSubmit={formik.handleSubmit}>
 
-            <div className="form-floating mb-3">
+            <div className="form-floating mb-2">
                 <input
                     id="name"
                     type="text"
@@ -37,10 +37,10 @@ export const FormContact = () => {
                 <label htmlFor="name" className="form-label text-black">Nombre</label>
             </div>
            {formik.touched.name && formik.errors.name ? (
-             <div className="text-danger">{formik.errors.name}</div>
+             <div className="text-danger text-center mb-2">{formik.errors.name}</div>
            ) : null}
  
-            <div className="form-floating mb-3">
+            <div className="form-floating mb-2">
                 <input 
                     id="email" 
                     className={`form-control ${formik.touched.email && formik.errors.email ? 'is-invalid' : ''}`} 
@@ -50,11 +50,11 @@ export const FormContact = () => {
                 />
                 <label htmlFor="email" className="form-label text-black">Email</label>
                 {formik.touched.email && formik.errors.email ? (
-                    <div className="text-danger">{formik.errors.email}</div>
+                    <div className="text-danger text-center mb-2">{formik.errors.email}</div>
                 ) : null}
             </div>
 
-            <div className="form-floating mb-3">
+            <div className="form-floating mb-2">
                 <textarea 
                     id="mensaje" 
                     className={`form-control ${formik.touched.mensaje && formik.errors.mensaje ? 'is-invalid' : ''}`} 
@@ -66,11 +66,11 @@ export const FormContact = () => {
                 />
                 <label htmlFor="mensaje" className="form-label text-black">Mensaje</label>
                 {formik.touched.mensaje && formik.errors.mensaje ? (
-                    <div className="text-danger">{formik.errors.mensaje}</div>
+                    <div className="text-danger text-center mb-2">{formik.errors.mensaje}</div>
                 ) : null}
             </div>
  
-           <button type="submit" className="btn btn-outline-primary w-100 mt-2">Submit</button>
+           <button type="submit" className="btn btn-outline-primary w-100 mt-2">Enviar</button>
          </form>
        )}
      </Formik>

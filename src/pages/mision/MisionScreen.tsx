@@ -17,7 +17,7 @@ export const MisionScreen = () => {
           <h2>Nuestra Mision</h2>
           <p>Brindar un servicio confiable, seguro y eficiente, capaz de satisfacer plenamente las necesidades individuales de todos nuestros Clientes, generando valor tanto para ellos como para nuestros colaboradores internos.</p>
         </div>
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-6  d-flex align-items-center justify-content-center ">
           <div className="imagen-container">
             <img src={ logo } alt="logo" className='img-fluid rounded'/>
           </div>

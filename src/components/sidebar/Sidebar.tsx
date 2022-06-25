@@ -3,6 +3,7 @@ import './sidebar.css';
 
 export const Sidebar = () => {
 
+    
 
 
   return (
@@ -14,8 +15,8 @@ export const Sidebar = () => {
 
             <div className={`offcanvas-lg offcanvas-end  bg-dark`} tabIndex={-1} id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
                 <div className="offcanvas-header">
-                    <h5 className="offcanvas-title" id="offcanvasResponsiveLabel">MF - Gestiones</h5>
-                    <button type="button" className="btn-close" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"></button>
+                    <h5 className="offcanvas-title" id="offcanvasResponsiveLabel">MF - Cadetería</h5>
+                    <button type="button" className="btn-close text-white" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"></button>
                 </div>
                 <div className="offcanvas-body">
                     <div className="sidebar-ul list-group list-group-horizontal-lg ">
