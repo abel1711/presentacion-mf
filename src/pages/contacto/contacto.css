@@ -1,0 +1,33 @@
+.imagen-container-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-;
+    gap: 5px;
+
+}
+.imagen {
+    margin: 4px;
+    margin-top: 10px;
+}
+
+.anchor-imagen:hover{
+    animation: imagenHover 1s ;
+    
+}
+
+a.anchor-imagen {
+    width: 100%;
+}
+
+/* a .imagen {
+    width: 100%;
+
+} */
+@keyframes imagenHover {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -14,8 +14,8 @@ export const ObjetivosScreen = () => {
       
     >
       <div className="row">
+          <h2 className='text-center'>Objetivos</h2>
         <div className="col-12 col-md-6">
-          <h2>Objetivos</h2>
           <p>Optimizar su tiempo y el de sus Clientes a través de un Servicio de Mensajería y Logística para empresas de máxima efectividad y poder de respuesta. Nuestra experiencia de tantos años en el mercado nos ha posicionado como una empresa confiable, responsable y eficiente para realizar todo tipo de trámites y envíos a cualquier punto de la ciudad y alrededores.</p>
         </div>
         <div className="col-12 col-md-6  d-flex align-items-center justify-content-center ">
