@@ -11,14 +11,14 @@ import { ServiciosScreen } from "../pages/servicios/ServiciosScreen"
 export const AppRouter = () => {
   return (
     <AnimatePresence>
-        <Sidebar />
-        <AboutScreen />
-        <ObjetivosScreen />
-        <MisionScreen />
-        <ServiciosScreen />
-        <ContactoScreen />
-        <Footer />
-        {/* <LoadingScreen /> */}
+        <Sidebar key={'sidebar'} />
+        <AboutScreen key={'about'}/>
+        <ObjetivosScreen key={'objetivos'}/>
+        <MisionScreen key={'mision'}/>
+        <ServiciosScreen key={'servicios'}/>
+        <ContactoScreen key={'contacto'}/>
+        <Footer key={'footer'}/>
+        {/* <LoadingScreen key={'loading'}/> */}
     </AnimatePresence>
   )
 }
