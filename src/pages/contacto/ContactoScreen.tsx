@@ -10,7 +10,7 @@ import './contacto.css';
 export const ContactoScreen = () => {
   return (
     <motion.div 
-        className="container py-5"
+        className="container p-5 mt-5 contacto-background"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         whileHover={{ scale: 1.05 }}
