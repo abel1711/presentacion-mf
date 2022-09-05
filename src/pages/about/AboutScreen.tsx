@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import mfCamioneta from "../../img/mf-gestiones-camioneta.jpg";
+import motoAmarrilla from "../../img/diapositivas/recortadas/delivery-amarillo-recorte.jpg";
 
 export const AboutScreen = () => {
   return (
     <motion.div 
-      className="container p-5"
+      className="container mt-5 p-5 about-background"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       whileHover={{ scale: 1.05 }}
@@ -20,7 +20,7 @@ export const AboutScreen = () => {
         </div>
         <div className="col-12 col-md-6  d-flex align-items-center justify-content-center ">
           <div className="imagen-container">
-            <img src={ mfCamioneta } alt="camioneta" className='img-fluid rounded'/>
+            <img src={ motoAmarrilla } alt="camioneta" className='img-fluid rounded'/>
           </div>
         </div>
       </div>

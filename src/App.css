@@ -7,8 +7,67 @@
 body {
   background-color: #181A1B;
   color: white;
+  
+}
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+body::-webkit-scrollbar:vertical {
+  width:5px;
+  background-color: #000;
+}
+body::-webkit-scrollbar-button:increment, body::-webkit-scrollbar-button {
+  display: none;
+}
+body::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ef7d03;
+  border-radius: 20px;
+  border: 1px solid #ef7d03;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+.body-custom {
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.94)), url('img/mf-gestiones.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
+.about-background{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/diapositivas/delivery-amarillo.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.objetivos-background{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/diapositivas/objetivos-especificos-e1576545189286.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.mision-background{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/diapositivas/apreton-manos.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.servicios-background{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/diapositivas/cajas-apiladas.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.contacto-background{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/diapositivas/contactame.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
 h2 {
   padding: 10px;
 }

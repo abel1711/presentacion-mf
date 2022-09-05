@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion'
-import logo from '../../img/mf-gestiones.jpg'
+import imgObjetivos from '../../img/diapositivas/recortadas/objetivos-especificos-recorte.jpg'
 
 export const ObjetivosScreen = () => {
   return (
     <motion.div 
-      className="container py-5"
+      className="container p-5 mt-5 objetivos-background"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       whileHover={{ scale: 1.05 }}
@@ -20,7 +20,7 @@ export const ObjetivosScreen = () => {
         </div>
         <div className="col-12 col-md-6  d-flex align-items-center justify-content-center ">
           <div className="imagen-container">
-            <img src={ logo } alt="logo" className='img-fluid rounded'/>
+            <img src={ imgObjetivos } alt="logo" className='img-fluid rounded'/>
           </div>
         </div>
       </div>
