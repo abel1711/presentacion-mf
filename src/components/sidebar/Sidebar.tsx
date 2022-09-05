@@ -9,9 +9,9 @@ export const Sidebar = () => {
   return (
     <div className="sidebar-container">
         <nav className="navbar navbar-dark navbar-expand-lg bg-dark p-0">
-            <div className="container-fluid ">
+            <div className="container-fluid container-nav">
                 <a className="navbar-brand p-0 m-0" href="#">
-                    <img src={icono} alt="logo-mf" className="rounded img-fluid icono-nav" width={25}/>
+                    <img src={icono} alt="logo-mf" className="rounded img-fluid icono-nav" width={25} />
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

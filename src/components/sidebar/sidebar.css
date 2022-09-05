@@ -18,10 +18,18 @@
     position: relative;
     margin-top: 0;
     margin-right: 0;
+    margin: 5px;
     width: 50px;
+    border-radius: 50% !important;
+
 }
 
 .container-fluid {
     padding-left: 30px;
 }
+
+.navbar-collapse {
+    justify-content: end;    ;
+}
+
 
