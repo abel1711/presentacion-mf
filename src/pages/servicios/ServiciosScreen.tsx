@@ -15,6 +15,8 @@ export const ServiciosScreen = () => {
       <div className="row">
           <h2 className='text-center'>Servicios</h2>
         <div className="col-12 col-md-6">
+          <h4>Servicios de reparto Ecommerce</h4>
+          <p>Generamos la logistica de tus ventas con entregas puerta a puerta en el día o servicio 24-48 hs.</p>
           <h4>Gestiones coordinadas</h4>
           <p>Organiza tus trámites en conjunto con la empresa acordando horario de recepción  y rendición de los mismos permitiendo optimizar su trabajo en tiempo y costo.</p>
           <h4>Gestiones Eventuales</h4>

@@ -32,13 +32,13 @@ export const ContactoScreen = () => {
             <a className='anchor-imagen' href="https://bit.ly/3xUPrUP" target={'_blank'}>
               <img src={ logoFacebook } alt="logo" className=' imagen img-fluid rounded'/>
             </a>
-            <a className='anchor-imagen' href="">
+            <a className='anchor-imagen' href="https://www.instagram.com/invites/contact/?i=pg24yufr0har&utm_content=1oo0mjg" target={'_blank'}>
               <img src={ logoInstagram } alt="logo" className=' imagen img-fluid rounded'/>
             </a>
-            <a className='anchor-imagen' href="">
+            <a className='anchor-imagen' href="https://www.linkedin.com/in/mensajer%C3%ADa-mf-gesti%C3%B3nes-32b10811b" target={'_blank'}>
               <img src={ logoLinkedIn } alt="logo" className=' imagen img-fluid rounded'/>
             </a>
-            <a className='anchor-imagen' href="">
+            <a className='anchor-imagen' href="https://twitter.com/MFGESTIONES?t=PWjkVeWfJmDQ0WyOi1G24g&s=09" target={'_blank'}>
               <img src={ logoTwitter } alt="logo" className=' imagen img-fluid rounded'/>
             </a>
           </div>
